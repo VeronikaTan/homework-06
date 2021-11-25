@@ -441,7 +441,7 @@
                 
               <label for="name" class="modal-form-tag">Имя</label>
               <div class="modal-form-brick">
-              <input type="text" name="user-name" id="name" class="modal-field" />
+              <input class="modal-field" type="text" name="user-name" id="name"  />
               <svg class="modal-svg" width="12" height="12">
                 <use href="./images/sprite.svg#icon-person-black"></use>
               </svg>
@@ -461,8 +461,14 @@
               </svg>
               </div>
               <label for="text" class="modal-form-tag">Комментарий</label>
+              <textarea 
+              name="comments" 
+              id="" 
+              cols="30"
+               rows="10" 
+               class="modal-form-field"
+               placeholder="Введите текст"></textarea>
               
-              <input type="text" name="comments" id="comments" class="modal-comments-field" />
                 <div class="modal-agreement">
               <input type="checkbox" value="text" id="text" class="modal-checkbox" />
               <label for="checkbox" class="modal-checkbox-text">Соглашаюсь с рассылкой и принимаю <a href="" class="modal-span">Условия договора</a></label>

@@ -506,6 +506,11 @@ header {
   display: flex;
   flex-direction: column;
 }
+.modal-form-brick:hover .modal-field,
+.modal-form-brick:focus .modal-field {
+  border-color: var(--accent-color);
+  fill: var(--accent-color);
+}
 .modal-form-tag {
   font-size: 12px;
   line-height: 1.1;
@@ -531,12 +536,18 @@ header {
   width: 448px;
   height: 120px;
 }
+.moda-checkbox input[type="checkbox"] {
+  width: 15px;
+  height: 16px;
+  background: #212121;
+}
 .modal-checkbox-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-left: 9px;
 }
 .modal-span {
   color: var(--accent-color);
@@ -554,6 +565,8 @@ header {
 .modal-agreement {
   margin-top: 20px;
   margin-bottom: 30px;
+  display: flex;
+  align-items: center;
 }
 .modal-button {
   background: #2196f3;
@@ -583,6 +596,25 @@ header {
   left: 15px;
   top: 14px;
   bottom: 14px;
+}
+.modal-form-field:hover,
+.modal-form-field:focus {
+  border-color: var(--accent-color);
+}
+.modal-form-field {
+  resize: none;
+  width: 448px;
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  font-size: 12px;
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-top: 12px;
+  padding-right: 16px;
+  padding-bottom: 12px;
 }
 /************************************************/
 /***********************************************/
