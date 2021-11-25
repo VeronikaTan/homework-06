@@ -12,7 +12,7 @@
     <symbol id="icon-person-black" viewBox="0 0 32 32">
       <path d="M16 16c4.42 0 8-3.58 8-8s-3.58-8-8-8-8 3.58-8 8 3.58 8 8 8zm0 4c-5.34 0-16 2.68-16 8v2c0 1.1.9 2 2 2h28c1.1 0 2-.9 2-2v-2c0-5.32-10.66-8-16-8z"/>
     </symbol>
-    <symbol id="icon-icon-check" viewBox="0 0 34 32">
+    <symbol id="icon-check" viewBox="0 0 34 32">
       <path fill="#2196f3" style="fill:var(--color3, #2196f3)" d="M4.267 0h25.6a4.267 4.267 0 0 1 4.267 4.267v23.467a4.267 4.267 0 0 1-4.267 4.267h-25.6A4.267 4.267 0 0 1 0 27.734V4.267A4.267 4.267 0 0 1 4.267 0z"/>
       <path fill="#fff" style="fill:var(--color1, #fff);stroke:var(--color1, #fff)" stroke="#fff" stroke-width=".427" d="m8.442 16.537-.147-.14-2.205 2.088 7.767 7.41 16.318-15.567-2.19-2.089-14.128 13.465-5.416-5.167z"/>
     </symbol>
