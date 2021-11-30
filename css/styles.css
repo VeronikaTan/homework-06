@@ -175,14 +175,7 @@ header {
   display: block;
   align-items: center;
 }
-.head-contacts-link:hover,
-.head-contacts-link:focus {
-  color: var(--accent-color);
-}
-.head-contacts-link:hover .head-contacts-icon,
-.head-contacts-link:focus .head-contacts-icon {
-  fill: var(--accent-color);
-}
+
 .head-contacts-link {
   align-items: center;
   color: var(--secondary-text-color);
@@ -194,10 +187,20 @@ header {
 .head-contacts-icon {
   margin-right: 10px;
   fill: #757575;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .phone-icon,
 .mail-icon {
   fill: #757575;
+}
+
+.head-contacts-link:hover,
+.head-contacts-link:focus {
+  color: var(--accent-color);
+}
+.head-contacts-link:hover .head-contacts-icon,
+.head-contacts-link:focus .head-contacts-icon {
+  fill: var(--accent-color);
 }
 .head-contacts-list:first-child {
   margin-right: 50px;
@@ -585,6 +588,10 @@ header {
   color: var(--secondary-text-color);
   margin-bottom: 30px;
 }
+.modal-form-check-labell {
+  margin-left: auto;
+  margin-right: auto;
+}
 /* оформление для кастомного чекбокса */
 .modal-form-check {
   position: absolute;
@@ -745,13 +752,15 @@ footer {
   margin-bottom: 20px;
 }
 .footer-field {
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-color: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   width: 358px;
   height: 50px;
   display: block;
   background: transparent;
+  padding-left: 16px;
+  color: #e5e5e5;
 }
 .left-footer-block {
   display: flex;
